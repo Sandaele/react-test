@@ -1,0 +1,60 @@
+body{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+.corpo{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px black; 
+    width: 100%;
+    max-width: 400px;
+}
+
+.espaço{
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+label{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="submit"]:hover{
+    background-color: orangered;
+}
